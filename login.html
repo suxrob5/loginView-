@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./login/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1d3a6012a0.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="/login/images/icon/love-birds.svg">
+    <title>Login</title>
+</head>
+<body>
+    <header class="header">
+        <div class="headerRow">
+            <h3 class="header__h3">Знакомства по всему миру</h3>
+       <div class="selectIcon">
+           <div class="icon">
+               <img src="/login/images/icon/SSHA.svg" alt="amerika">
+           </div>
+        <select id="select" name="select">
+            <option value="1">Америка</option>            
+            <option value="2">Россия</option>            
+            <option value="3">Узбекистан</option>            
+        </select>
+       </div>
+        </div>
+    </header>
+    <div class="container1">
+        <div class="img">
+            <a href="#">
+                <div class="imgTitle">
+                    <img src="/login/images/icon/love-birds.svg" alt="svg">
+                    <h3>Znakomstva.com</h3>
+                </div> 
+            </a>           
+        </div>
+        <div class="btnLogins">
+            <div class="btns">
+                <a href="#" class="aLink">Впервые здесь?</a>
+            <button type="button" class="loginBtn">Регистрация</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class=" mt-5"> 
+      <div class="row justify-content-center">
+             <div class="card w-50 m-auto">
+              <div class="card-body">
+                <h1 class="text-center mb-6">Знакомства без преград</h1>
+                <p class="text-center">Для современного мира сплочённость команды профессионалов однозначно фиксирует необходимость <br>
+                     системы обучения кадров, соответствующей насущным потребностям.</p>
+                <form id="form" class="form-control">
+                  <div>
+                    <div class="mb-3">
+                        <!-- <label for="username" class="form-label"> username </label> -->
+                        <input
+                          type="text"
+                          class="form-control1"
+                          id="username"
+                          placeholder="Введите электронную почту"
+                          required
+                        />
+                      </div>
+                      <div class="mb-3">
+                        <!-- <label for="password" class="form-label">Password</label> -->
+                        <input
+                          type="password"
+                          class="form-control1"
+                          id="password"
+                          placeholder="Введите пароль"
+                          required
+                        />
+                      </div>
+                      <button type="submit" class="btn btn-primary btn-block">Войти</button>
+                      <div>
+                      <a href="#" class="aLink1" id="aClick"><p class="text-center" style="margin-top: 10px;">Я не помню пароль</p></a>
+
+                      </div>
+                    </div>
+                </form>
+              </div>
+            </div>
+        </div>
+      </div> 
+      <script src="./login/login.js"></script>
+</body>
+</html>

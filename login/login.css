@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Rubik;
+}
+
+body {
+  background-color: #230e2aff;
+  background-image: url(/login/images/fon.png);
+  background-size: 1560px;
+  background-repeat: no-repeat;
+  background-clip: content-box;
+}
+a {
+  text-decoration: none;
+}
+
+.header {
+  width: 100%;
+  background-color: #1b0522ff;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .header__h3 {
+    color: white;
+  }
+}
+
+.headerRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.selectIcon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 140px;
+}
+
+#select {
+  background-color: #1b0522ff;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.container1 {
+  margin: 0 auto;
+  margin-top: 20px;
+  /* border: 2px solid red; */
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .imgTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 240px;
+    color: white;
+  }
+  .loginBtn {
+    border: 2px solid red;
+    background-color: #230e2aff;
+    color: white;
+    border-radius: 45px;
+    padding: 15px 30px;
+    cursor: pointer;
+  }
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  .aLink {
+    color: white;
+  }
+}
+
+.cardBody {
+  width: 50%;
+}
+
+.justify-content-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mt-5 {
+  margin: 0 auto;
+  width: 50%;
+  color: white;
+  margin-top: 100px;
+}
+
+.w-50 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-body {
+  margin: 0 auto;
+}
+
+.mt-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 100%; */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.form-control {
+  margin: 50px auto;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-control1 {
+  width: 280px;
+  height: 50px;
+  border-radius: 25px;
+  padding: 5px;
+  outline: none;
+  border: none;
+  background: #42204e;
+  margin-top: 10px;
+  color: #8b5d9a;
+}
+
+.btn-primary {
+  width: 280px;
+  height: 50px;
+  border-radius: 25px;
+  outline: none;
+  margin-top: 10px;
+  color: white;
+  border-radius: 500px;
+  border: none;
+  background: linear-gradient(90deg, #ee0979 0%, #ff6a00 100%);
+  box-shadow: 0px 20px 30px 0px rgba(179, 34, 31, 0.2); 
+}
+
+.mt-3 {
+  margin-top: 10px;
+}
+
+
+/* .aLink1{
+    margin-top: 20px;
+} */
